@@ -4,15 +4,6 @@ import {Component} from "@angular/core";
   selector: "app-root",
   templateUrl: "./app.component.html",
   // styleUrls: ["./app.component.css"]
-  styles: [
-    `
-      h3 {
-        color: blue;
-      }
-    `
-  ]
+  styles: []
 })
-export class AppComponent {
-  title = "my-first-app";
-  name = "Sachit";
-}
+export class AppComponent {}

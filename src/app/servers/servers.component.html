@@ -1,7 +1,0 @@
-<button class="btn btn-primary" [disabled]="false" (click)="displayToggler(($event))">Display Details</button>
-<app-server></app-server>
-<label for="The-Bars">{{userName}}</label>
-<input type="text" class="form-control" id="The-Bars" [(ngModel)]="userName">
-<p *ngIf="displayToggle">Secret Password = tuna</p>
-<app-server></app-server>
-<p *ngFor="let timestamp of clicksArray; let i = index" [ngClass]="{highlighted: i>=4}">{{timestamp}}</p>
